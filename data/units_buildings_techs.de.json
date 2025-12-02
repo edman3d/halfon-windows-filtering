@@ -17046,7 +17046,7 @@
 		"751": {
 			"cost": {
 				"wood": 0,
-				"food": 25,
+				"food": 20,
 				"gold": 50,
 				"stone": 0
 			},
@@ -17069,7 +17069,7 @@
 		"752": {
 			"cost": {
 				"wood": 0,
-				"food": 25,
+				"food": 20,
 				"gold": 50,
 				"stone": 0
 			},
@@ -17092,7 +17092,7 @@
 		"753": {
 			"cost": {
 				"wood": 0,
-				"food": 25,
+				"food": 20,
 				"gold": 50,
 				"stone": 0
 			},
@@ -17510,7 +17510,7 @@
 				"gold": 60,
 				"stone": 0
 			},
-			"attack": 18,
+			"attack": 19,
 			"melee_armor": 2,
 			"pierce_armor": 2,
 			"base_id": 773,
@@ -27960,7 +27960,7 @@
 			"language_file_name": 5313,
 			"language_file_help": 105313,
 			"name": "KESHIK",
-			"hit_points": 110,
+			"hit_points": 120,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -28006,7 +28006,7 @@
 			"language_file_name": 5314,
 			"language_file_help": 105314,
 			"name": "EKESHIK",
-			"hit_points": 140,
+			"hit_points": 145,
 			"line_of_sight": 5,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -41358,7 +41358,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 30,
-				"gold": 60,
+				"gold": 50,
 				"stone": 0
 			},
 			"attack": 11,
@@ -41818,7 +41818,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 30,
-				"gold": 60,
+				"gold": 50,
 				"stone": 0
 			},
 			"attack": 11,
@@ -42956,7 +42956,7 @@
 			"language_file_name": 0,
 			"language_file_help": 105325,
 			"name": "PROJMTREB_D",
-			"hit_points": 8,
+			"hit_points": 10,
 			"line_of_sight": 0,
 			"garrison_capacity": 0,
 			"type": 70,
@@ -43150,7 +43150,7 @@
 		},
 		"1889": {
 			"cost": {
-				"wood": 100,
+				"wood": 110,
 				"food": 0,
 				"gold": 0,
 				"stone": 0
@@ -45080,6 +45080,29 @@
 			"localised_name": "",
 			"rms_const": null
 		},
+		"1973": {
+			"cost": {
+				"wood": 0,
+				"food": 0,
+				"gold": 0,
+				"stone": 0
+			},
+			"attack": 0,
+			"melee_armor": 0,
+			"pierce_armor": 0,
+			"base_id": 1973,
+			"help_converter": 26716,
+			"language_file_name": 21339,
+			"language_file_help": 105716,
+			"name": "NESSIE",
+			"hit_points": 1,
+			"line_of_sight": 7,
+			"garrison_capacity": 0,
+			"type": 70,
+			"class": 11,
+			"localised_name": "Nessie",
+			"rms_const": null
+		},
 		"1974": {
 			"cost": {
 				"wood": 0,
@@ -45207,15 +45230,15 @@
 			"pierce_armor": 0,
 			"base_id": 1979,
 			"help_converter": 26000,
-			"language_file_name": 0,
+			"language_file_name": 21340,
 			"language_file_help": 105000,
-			"name": "",
+			"name": "STONEHENGE",
 			"hit_points": 1,
-			"line_of_sight": 2,
+			"line_of_sight": 0,
 			"garrison_capacity": 0,
 			"type": 10,
-			"class": -1,
-			"localised_name": "",
+			"class": 14,
+			"localised_name": "Stonehenge",
 			"rms_const": null
 		},
 		"1980": {
@@ -57802,7 +57825,7 @@
 		"60": {
 			"cost": {
 				"wood": 0,
-				"food": 1200,
+				"food": 900,
 				"gold": 600,
 				"stone": 0
 			},
@@ -65863,7 +65886,7 @@
 			"cost": {
 				"wood": 0,
 				"food": 700,
-				"gold": 900,
+				"gold": 600,
 				"stone": 0
 			},
 			"help_converter": 28304,
@@ -68397,7 +68420,7 @@
 		"875": {
 			"cost": {
 				"wood": 0,
-				"food": 100,
+				"food": 50,
 				"gold": 100,
 				"stone": 0
 			},
@@ -69034,7 +69057,7 @@
 		"924": {
 			"cost": {
 				"wood": 0,
-				"food": 750,
+				"food": 550,
 				"gold": 250,
 				"stone": 0
 			},
@@ -69951,7 +69974,7 @@
 			"help_converter": 28000,
 			"language_file_name": 7000,
 			"language_file_help": 107000,
-			"name": "C-Bonus, cav & Fire Lancer +20% attack",
+			"name": "C-Bonus, cav & Fire Lancer +25% attack",
 			"localised_name": ""
 		},
 		"995": {
