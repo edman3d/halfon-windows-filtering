@@ -57296,11 +57296,11 @@
 		"2550": {
 			"cost": {
 				"wood": 0,
-				"food": 45,
+				"food": 50,
 				"gold": 25,
 				"stone": 0
 			},
-			"attack": 4,
+			"attack": 3,
 			"melee_armor": 0,
 			"pierce_armor": 2,
 			"base_id": 2550,
@@ -57342,7 +57342,7 @@
 		"2552": {
 			"cost": {
 				"wood": 0,
-				"food": 45,
+				"food": 50,
 				"gold": 25,
 				"stone": 0
 			},
@@ -57388,7 +57388,7 @@
 		"2554": {
 			"cost": {
 				"wood": 0,
-				"food": 45,
+				"food": 50,
 				"gold": 25,
 				"stone": 0
 			},
@@ -58170,7 +58170,7 @@
 		"2588": {
 			"cost": {
 				"wood": 0,
-				"food": 45,
+				"food": 50,
 				"gold": 25,
 				"stone": 0
 			},
@@ -62348,10 +62348,10 @@
 				"gold": 0,
 				"stone": 0
 			},
-			"help_converter": 28000,
+			"help_converter": 28402,
 			"language_file_name": 7000,
-			"language_file_help": 107000,
-			"name": "",
+			"language_file_help": 107402,
+			"name": "[FTT] Disable South American Regionals",
 			"localised_name": ""
 		},
 		"122": {
@@ -78334,8 +78334,8 @@
 		"1351": {
 			"cost": {
 				"wood": 0,
-				"food": 125,
-				"gold": 100,
+				"food": 200,
+				"gold": 175,
 				"stone": 0
 			},
 			"help_converter": 28488,
@@ -78997,7 +78997,7 @@
 		"1402": {
 			"cost": {
 				"wood": 0,
-				"food": 100,
+				"food": 120,
 				"gold": 60,
 				"stone": 0
 			},
