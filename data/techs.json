@@ -1,0 +1,4721 @@
+[
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28418,
+		"language_file_name": 7418,
+		"language_file_help": 107418,
+		"name": "Elite Tarkan",
+		"localised_name": "Elite Tarkan"
+	},
+	{
+		"cost": {
+			"wood": 750,
+			"food": 0,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28419,
+		"language_file_name": 7419,
+		"language_file_help": 107419,
+		"name": "British Yeoman",
+		"localised_name": "Yeomen"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 750,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28420,
+		"language_file_name": 7420,
+		"language_file_help": 107420,
+		"name": "Mayan El Dorado",
+		"localised_name": "El Dorado"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 750,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28421,
+		"language_file_name": 7421,
+		"language_file_help": 107421,
+		"name": "Celtic Furor Celtica",
+		"localised_name": "Furor Celtica"
+	},
+	{
+		"cost": {
+			"wood": 500,
+			"food": 0,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28422,
+		"language_file_name": 7422,
+		"language_file_help": 107422,
+		"name": "Mongol Siege Drill",
+		"localised_name": "Drill"
+	},
+	{
+		"cost": {
+			"wood": 600,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28423,
+		"language_file_name": 7423,
+		"language_file_help": 107423,
+		"name": "Citadels",
+		"localised_name": "Citadels"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 75,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28008,
+		"language_file_name": 7008,
+		"language_file_help": 107008,
+		"name": "Town Watch",
+		"localised_name": "Town Watch"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28424,
+		"language_file_name": 7424,
+		"language_file_help": 107424,
+		"name": "Saracen Zealotry",
+		"localised_name": "Zealotry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 650,
+			"stone": 0
+		},
+		"help_converter": 28425,
+		"language_file_name": 7425,
+		"language_file_help": 107425,
+		"name": "Turkish Artillery",
+		"localised_name": "Artillery"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 0,
+			"stone": 400
+		},
+		"help_converter": 28426,
+		"language_file_name": 7426,
+		"language_file_help": 107426,
+		"name": "Teuton Crenellations",
+		"localised_name": "Crenellations"
+	},
+	{
+		"cost": {
+			"wood": 250,
+			"food": 250,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28012,
+		"language_file_name": 7012,
+		"language_file_help": 107012,
+		"name": "Crop rotation",
+		"localised_name": "Crop Rotation"
+	},
+	{
+		"cost": {
+			"wood": 125,
+			"food": 125,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28013,
+		"language_file_name": 7013,
+		"language_file_help": 107013,
+		"name": "Heavy plow",
+		"localised_name": "Heavy Plow"
+	},
+	{
+		"cost": {
+			"wood": 75,
+			"food": 75,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28014,
+		"language_file_name": 7014,
+		"language_file_help": 107014,
+		"name": "Horse collar",
+		"localised_name": "Horse Collar"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28015,
+		"language_file_name": 7015,
+		"language_file_help": 107015,
+		"name": "Guilds",
+		"localised_name": "Guilds"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 450,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28427,
+		"language_file_name": 7427,
+		"language_file_help": 107427,
+		"name": "Gothic Anarchy",
+		"localised_name": "Anarchy"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28017,
+		"language_file_name": 7017,
+		"language_file_help": 107017,
+		"name": "Banking",
+		"localised_name": "Banking"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28019,
+		"language_file_name": 7019,
+		"language_file_help": 107019,
+		"name": "Cartography",
+		"localised_name": "Cartography"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 500,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28428,
+		"language_file_name": 7428,
+		"language_file_help": 107428,
+		"name": "Hun Atheism",
+		"localised_name": "Atheism"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 50,
+			"stone": 0
+		},
+		"help_converter": 28022,
+		"language_file_name": 7022,
+		"language_file_help": 107022,
+		"name": "Loom",
+		"localised_name": "Loom"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28023,
+		"language_file_name": 7023,
+		"language_file_help": 107023,
+		"name": "Coinage",
+		"localised_name": "Coinage"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 450,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28429,
+		"language_file_name": 7429,
+		"language_file_help": 107429,
+		"name": "Aztec Garland Wars",
+		"localised_name": "Garland Wars"
+	},
+	{
+		"cost": {
+			"wood": 1000,
+			"food": 700,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28430,
+		"language_file_name": 7430,
+		"language_file_help": 107430,
+		"name": "Elite Plumed Archer",
+		"localised_name": "Elite Plumed Archer"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 0,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28451,
+		"language_file_name": 7451,
+		"language_file_help": 107451,
+		"name": "Bimaristan",
+		"localised_name": "Bimaristan"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 230,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28034,
+		"language_file_name": 7034,
+		"language_file_help": 107034,
+		"name": "War Galley",
+		"localised_name": "War Galley"
+	},
+	{
+		"cost": {
+			"wood": 315,
+			"food": 400,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28035,
+		"language_file_name": 7035,
+		"language_file_help": 107035,
+		"name": "Galleon",
+		"localised_name": "Galleon"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28037,
+		"language_file_name": 7037,
+		"language_file_help": 107037,
+		"name": "Cannon Galleon",
+		"localised_name": "Cannon Galleon"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28039,
+		"language_file_name": 7039,
+		"language_file_help": 107039,
+		"name": "Husbandry",
+		"localised_name": "Husbandry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 550,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28045,
+		"language_file_name": 7045,
+		"language_file_help": 107045,
+		"name": "Faith",
+		"localised_name": "Faith"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 100,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28462,
+		"language_file_name": 7462,
+		"language_file_help": 107462,
+		"name": "Devotion",
+		"localised_name": "Devotion"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28047,
+		"language_file_name": 7047,
+		"language_file_help": 107047,
+		"name": "Chemistry",
+		"localised_name": "Chemistry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28410,
+		"language_file_name": 7410,
+		"language_file_help": 107410,
+		"name": "Caravan",
+		"localised_name": "Caravan"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28431,
+		"language_file_name": 7431,
+		"language_file_help": 107431,
+		"name": "Bogsveigar",
+		"localised_name": "Bogsveigar"
+	},
+	{
+		"cost": {
+			"wood": 175,
+			"food": 150,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28050,
+		"language_file_name": 7050,
+		"language_file_help": 107050,
+		"name": "Masonry",
+		"localised_name": "Masonry"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 300,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28051,
+		"language_file_name": 7051,
+		"language_file_help": 107051,
+		"name": "Architecture",
+		"localised_name": "Architecture"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1100,
+			"gold": 900,
+			"stone": 0
+		},
+		"help_converter": 28432,
+		"language_file_name": 7432,
+		"language_file_help": 107432,
+		"name": "Chinese Rocketry",
+		"localised_name": "Rocketry"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 0,
+			"gold": 0,
+			"stone": 50
+		},
+		"help_converter": 28054,
+		"language_file_name": 7054,
+		"language_file_help": 107054,
+		"name": "Stone cutting",
+		"localised_name": "Treadmill Crane"
+	},
+	{
+		"cost": {
+			"wood": 75,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28055,
+		"language_file_name": 7055,
+		"language_file_help": 107055,
+		"name": "Gold Mining",
+		"localised_name": "Gold Mining"
+	},
+	{
+		"cost": {
+			"wood": 550,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28059,
+		"language_file_name": 7059,
+		"language_file_help": 107059,
+		"name": "Japanese Kataparuto",
+		"localised_name": "Kataparuto"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28317,
+		"language_file_name": 7317,
+		"language_file_help": 107317,
+		"name": "Elite Conquistador",
+		"localised_name": "Elite Conquistador"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28318,
+		"language_file_name": 7318,
+		"language_file_help": 107318,
+		"name": "Byzantine Logistica",
+		"localised_name": "Logistica"
+	},
+	{
+		"cost": {
+			"wood": 350,
+			"food": 500,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28063,
+		"language_file_name": 7063,
+		"language_file_help": 107063,
+		"name": "Keep",
+		"localised_name": "Keep"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 800,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 26156,
+		"language_file_name": 7320,
+		"language_file_help": 105156,
+		"name": "Bombard Tower",
+		"localised_name": "Bombard Tower"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 150,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28314,
+		"language_file_name": 7314,
+		"language_file_help": 107314,
+		"name": "Gillnets",
+		"localised_name": "Gillnets"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28067,
+		"language_file_name": 7067,
+		"language_file_help": 107067,
+		"name": "Forging",
+		"localised_name": "Forging"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 220,
+			"gold": 120,
+			"stone": 0
+		},
+		"help_converter": 28068,
+		"language_file_name": 7068,
+		"language_file_help": 107068,
+		"name": "Iron casting",
+		"localised_name": "Iron Casting"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28074,
+		"language_file_name": 7074,
+		"language_file_help": 107074,
+		"name": "Scale Mail Armor",
+		"localised_name": "Scale Mail Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 275,
+			"gold": 225,
+			"stone": 0
+		},
+		"help_converter": 28075,
+		"language_file_name": 7075,
+		"language_file_help": 107075,
+		"name": "Blast Furnace",
+		"localised_name": "Blast Furnace"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28076,
+		"language_file_name": 7076,
+		"language_file_help": 107076,
+		"name": "Chain Mail Armor",
+		"localised_name": "Chain Mail Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28077,
+		"language_file_name": 7077,
+		"language_file_help": 107077,
+		"name": "Plate Mail Armor",
+		"localised_name": "Plate Mail Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 350,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28080,
+		"language_file_name": 7080,
+		"language_file_help": 107080,
+		"name": "Plate Barding Armor",
+		"localised_name": "Plate Barding Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28081,
+		"language_file_name": 7081,
+		"language_file_help": 107081,
+		"name": "Scale Barding Armor",
+		"localised_name": "Scale Barding Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28082,
+		"language_file_name": 7082,
+		"language_file_help": 107082,
+		"name": "Chain Barding Armor",
+		"localised_name": "Chain Barding Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28324,
+		"language_file_name": 7324,
+		"language_file_help": 107324,
+		"name": "Frankish Bearded Axe",
+		"localised_name": "Bearded Axe"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28085,
+		"language_file_name": 7085,
+		"language_file_help": 107085,
+		"name": "Hand Cannoneer",
+		"localised_name": "Hand Cannon"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28090,
+		"language_file_name": 7090,
+		"language_file_help": 107090,
+		"name": "Tracking",
+		"localised_name": "Tracking"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 0,
+			"gold": 175,
+			"stone": 0
+		},
+		"help_converter": 28093,
+		"language_file_name": 7093,
+		"language_file_help": 107093,
+		"name": "Ballistics",
+		"localised_name": "Ballistics"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28094,
+		"language_file_name": 7094,
+		"language_file_help": 107094,
+		"name": "Scorpion",
+		"localised_name": "Scorpion"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28096,
+		"language_file_name": 7096,
+		"language_file_help": 107096,
+		"name": "Capped Ram",
+		"localised_name": "Capped Ram"
+	},
+	{
+		"cost": {
+			"wood": 230,
+			"food": 0,
+			"gold": 130,
+			"stone": 0
+		},
+		"help_converter": 28098,
+		"language_file_name": 7098,
+		"language_file_help": 107098,
+		"name": "Elite Skirmisher",
+		"localised_name": "Elite Skirmisher"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 175,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28100,
+		"language_file_name": 7100,
+		"language_file_help": 107100,
+		"name": "Crossbow",
+		"localised_name": "Crossbowman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 500,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28101,
+		"language_file_name": 7101,
+		"language_file_help": 107101,
+		"name": "Middle Age",
+		"localised_name": "Feudal Age"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28102,
+		"language_file_name": 7102,
+		"language_file_help": 107102,
+		"name": "Feudal Age",
+		"localised_name": "Castle Age"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28103,
+		"language_file_name": 7103,
+		"language_file_help": 107103,
+		"name": "Imperial Age",
+		"localised_name": "Imperial Age"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28104,
+		"language_file_name": 7104,
+		"language_file_help": 107104,
+		"name": "Dark Age",
+		"localised_name": "Dark Age"
+	},
+	{
+		"cost": {
+			"wood": 250,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28186,
+		"language_file_name": 7186,
+		"language_file_help": 107186,
+		"name": "Guard Tower",
+		"localised_name": "Guard Tower"
+	},
+	{
+		"cost": {
+			"wood": 75,
+			"food": 175,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28180,
+		"language_file_name": 7180,
+		"language_file_help": 107180,
+		"name": "Gold Shaft Mining",
+		"localised_name": "Gold Shaft Mining"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28165,
+		"language_file_name": 7165,
+		"language_file_help": 107165,
+		"name": "Bombard Cannon",
+		"localised_name": "Bombard Cannon"
+	},
+	{
+		"cost": {
+			"wood": 100,
+			"food": 200,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28163,
+		"language_file_name": 7163,
+		"language_file_help": 107163,
+		"name": "Fortified Wall",
+		"localised_name": "Fortified Wall"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 160,
+			"gold": 90,
+			"stone": 0
+		},
+		"help_converter": 28176,
+		"language_file_name": 7176,
+		"language_file_help": 107176,
+		"name": "Pikeman",
+		"localised_name": "Pikeman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 100,
+			"gold": 50,
+			"stone": 0
+		},
+		"help_converter": 28172,
+		"language_file_name": 7172,
+		"language_file_help": 107172,
+		"name": "Fletching",
+		"localised_name": "Fletching"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28150,
+		"language_file_name": 7150,
+		"language_file_help": 107150,
+		"name": "Bodkin Arrow",
+		"localised_name": "Bodkin Arrow"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28151,
+		"language_file_name": 7151,
+		"language_file_help": 107151,
+		"name": "Bracer",
+		"localised_name": "Bracer"
+	},
+	{
+		"cost": {
+			"wood": 50,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28189,
+		"language_file_name": 7189,
+		"language_file_help": 107189,
+		"name": "Double Bit Axe",
+		"localised_name": "Double-Bit Axe"
+	},
+	{
+		"cost": {
+			"wood": 100,
+			"food": 150,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28190,
+		"language_file_name": 7190,
+		"language_file_help": 107190,
+		"name": "Bow Saw",
+		"localised_name": "Bow Saw"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 65,
+			"stone": 0
+		},
+		"help_converter": 28204,
+		"language_file_name": 7204,
+		"language_file_help": 107204,
+		"name": "Long Swordsman",
+		"localised_name": "Long Swordsman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28207,
+		"language_file_name": 7207,
+		"language_file_help": 107207,
+		"name": "Cavalier",
+		"localised_name": "Cavalier"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28208,
+		"language_file_name": 7208,
+		"language_file_help": 107208,
+		"name": "Padded Archer Armor",
+		"localised_name": "Padded Archer Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28209,
+		"language_file_name": 7209,
+		"language_file_help": 107209,
+		"name": "Leather Archer Armor",
+		"localised_name": "Leather Archer Armor"
+	},
+	{
+		"cost": {
+			"wood": 50,
+			"food": 175,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28211,
+		"language_file_name": 7211,
+		"language_file_help": 107211,
+		"name": "Wheel Barrow",
+		"localised_name": "Wheelbarrow"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28210,
+		"language_file_name": 7210,
+		"language_file_help": 107210,
+		"name": "Squires",
+		"localised_name": "Squires"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28217,
+		"language_file_name": 7217,
+		"language_file_help": 107217,
+		"name": "Two-Handed Swordsman",
+		"localised_name": "Two-Handed Swordsman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28218,
+		"language_file_name": 7218,
+		"language_file_help": 107218,
+		"name": "Heavy Cavalry Archer",
+		"localised_name": "Heavy Cavalry Archer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28216,
+		"language_file_name": 7216,
+		"language_file_help": 107216,
+		"name": "Ring Archer Armor",
+		"localised_name": "Ring Archer Armor"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 300,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28231,
+		"language_file_name": 7231,
+		"language_file_help": 107231,
+		"name": "Two Man Saw",
+		"localised_name": "Two-Man Saw"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 100,
+			"gold": 40,
+			"stone": 0
+		},
+		"help_converter": 28230,
+		"language_file_name": 7230,
+		"language_file_help": 107230,
+		"name": "Man-At-Arms",
+		"localised_name": "Man-at-Arms"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28222,
+		"language_file_name": 7222,
+		"language_file_help": 107222,
+		"name": "Block Printing",
+		"localised_name": "Block Printing"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 175,
+			"stone": 0
+		},
+		"help_converter": 28221,
+		"language_file_name": 7221,
+		"language_file_help": 107221,
+		"name": "Sanctity",
+		"localised_name": "Sanctity"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 120,
+			"stone": 0
+		},
+		"help_converter": 28220,
+		"language_file_name": 7220,
+		"language_file_help": 107220,
+		"name": "Illumination",
+		"localised_name": "Illumination"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 325,
+			"gold": 360,
+			"stone": 0
+		},
+		"help_converter": 28235,
+		"language_file_name": 7235,
+		"language_file_help": 107235,
+		"name": "Heavy Camel",
+		"localised_name": "Heavy Camel Rider"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 450,
+			"gold": 350,
+			"stone": 0
+		},
+		"help_converter": 28233,
+		"language_file_name": 7233,
+		"language_file_help": 107233,
+		"name": "Arbalest",
+		"localised_name": "Arbalester"
+	},
+	{
+		"cost": {
+			"wood": 750,
+			"food": 800,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28244,
+		"language_file_name": 7244,
+		"language_file_help": 107244,
+		"name": "Heavy Scorpion",
+		"localised_name": "Heavy Scorpion"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28242,
+		"language_file_name": 7242,
+		"language_file_help": 107242,
+		"name": "Heavy Demolition",
+		"localised_name": "Heavy Demolition Ship"
+	},
+	{
+		"cost": {
+			"wood": 280,
+			"food": 0,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28243,
+		"language_file_name": 7243,
+		"language_file_help": 107243,
+		"name": "Fast Fire Ship",
+		"localised_name": "Fast Fire Ship"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 300,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28246,
+		"language_file_name": 7246,
+		"language_file_help": 107246,
+		"name": "Hand Cart",
+		"localised_name": "Hand Cart"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 140,
+			"stone": 0
+		},
+		"help_converter": 28249,
+		"language_file_name": 7249,
+		"language_file_help": 107249,
+		"name": "Fervor",
+		"localised_name": "Fervor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 50,
+			"stone": 0
+		},
+		"help_converter": 28261,
+		"language_file_name": 7261,
+		"language_file_help": 107261,
+		"name": "Light Cavalry",
+		"localised_name": "Light Cavalry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28263,
+		"language_file_name": 7263,
+		"language_file_help": 107263,
+		"name": "Siege Ram",
+		"localised_name": "Siege Ram"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28262,
+		"language_file_name": 7262,
+		"language_file_help": 107262,
+		"name": "Onager",
+		"localised_name": "Onager"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 350,
+			"stone": 0
+		},
+		"help_converter": 28260,
+		"language_file_name": 7260,
+		"language_file_help": 107260,
+		"name": "Champion",
+		"localised_name": "Champion"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1300,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28259,
+		"language_file_name": 7259,
+		"language_file_help": 107259,
+		"name": "Paladin",
+		"localised_name": "Paladin"
+	},
+	{
+		"cost": {
+			"wood": 75,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28276,
+		"language_file_name": 7276,
+		"language_file_help": 107276,
+		"name": "Stone Mining",
+		"localised_name": "Stone Mining"
+	},
+	{
+		"cost": {
+			"wood": 75,
+			"food": 175,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28277,
+		"language_file_name": 7277,
+		"language_file_help": 107277,
+		"name": "Stone Shaft Mining",
+		"localised_name": "Stone Shaft Mining"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28282,
+		"language_file_name": 7282,
+		"language_file_help": 107282,
+		"name": "Town Patrol",
+		"localised_name": "Town Patrol"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28319,
+		"language_file_name": 7319,
+		"language_file_help": 107319,
+		"name": "Conscription",
+		"localised_name": "Conscription"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 475,
+			"stone": 0
+		},
+		"help_converter": 28315,
+		"language_file_name": 7315,
+		"language_file_help": 107315,
+		"name": "Redemption",
+		"localised_name": "Redemption"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 325,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7316,
+		"language_file_help": 107316,
+		"name": "Atonement",
+		"localised_name": "Atonement"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1450,
+			"gold": 1000,
+			"stone": 0
+		},
+		"help_converter": 28323,
+		"language_file_name": 7323,
+		"language_file_help": 107323,
+		"name": "Siege Onager",
+		"localised_name": "Siege Onager"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 400,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28322,
+		"language_file_name": 7322,
+		"language_file_help": 107322,
+		"name": "Sappers",
+		"localised_name": "Sappers"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 0,
+			"stone": 100
+		},
+		"help_converter": 28321,
+		"language_file_name": 7321,
+		"language_file_help": 107321,
+		"name": "Murder Holes",
+		"localised_name": "Murder Holes"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 850,
+			"gold": 850,
+			"stone": 0
+		},
+		"help_converter": 28381,
+		"language_file_name": 7381,
+		"language_file_help": 107381,
+		"name": "Elite Longbow",
+		"localised_name": "Elite Longbowman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1200,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28382,
+		"language_file_name": 7382,
+		"language_file_help": 107382,
+		"name": "Elite Cataphract",
+		"localised_name": "Elite Cataphract"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1300,
+			"gold": 1300,
+			"stone": 0
+		},
+		"help_converter": 28384,
+		"language_file_name": 7384,
+		"language_file_help": 107384,
+		"name": "Elite Chu Ko Nu",
+		"localised_name": "Elite Chu Ko Nu"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 850,
+			"gold": 550,
+			"stone": 0
+		},
+		"help_converter": 28394,
+		"language_file_name": 7394,
+		"language_file_help": 107394,
+		"name": "Elite Throwing Axemen",
+		"localised_name": "Elite Throwing Axeman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 950,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28391,
+		"language_file_name": 7391,
+		"language_file_help": 107391,
+		"name": "Elite Teutonic Knight",
+		"localised_name": "Elite Teutonic Knight"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1200,
+			"gold": 550,
+			"stone": 0
+		},
+		"help_converter": 28386,
+		"language_file_name": 7386,
+		"language_file_help": 107386,
+		"name": "Elite Huskarl",
+		"localised_name": "Elite Huskarl"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 750,
+			"gold": 650,
+			"stone": 0
+		},
+		"help_converter": 28387,
+		"language_file_name": 7387,
+		"language_file_help": 107387,
+		"name": "Elite Samurai",
+		"localised_name": "Elite Samurai"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1350,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28389,
+		"language_file_name": 7389,
+		"language_file_help": 107389,
+		"name": "Elite War Elephant",
+		"localised_name": "Elite War Elephant"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28390,
+		"language_file_name": 7390,
+		"language_file_help": 107390,
+		"name": "Elite Mameluke",
+		"localised_name": "Elite Mameluke"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 850,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28392,
+		"language_file_name": 7392,
+		"language_file_help": 107392,
+		"name": "Elite Jannisary",
+		"localised_name": "Elite Janissary"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28383,
+		"language_file_name": 7383,
+		"language_file_help": 107383,
+		"name": "Elite Woad Raider",
+		"localised_name": "Elite Woad Raider"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1100,
+			"gold": 675,
+			"stone": 0
+		},
+		"help_converter": 28388,
+		"language_file_name": 7388,
+		"language_file_help": 107388,
+		"name": "Elite Mangudai",
+		"localised_name": "Elite Mangudai"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 750,
+			"gold": 475,
+			"stone": 0
+		},
+		"help_converter": 28393,
+		"language_file_name": 7393,
+		"language_file_help": 107393,
+		"name": "Unique Heroic Viking LBT",
+		"localised_name": "Elite Longboat"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28377,
+		"language_file_name": 7377,
+		"language_file_help": 107377,
+		"name": "Shipwright",
+		"localised_name": "Shipwright"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28372,
+		"language_file_name": 7372,
+		"language_file_help": 107372,
+		"name": "Careening",
+		"localised_name": "Careening"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28373,
+		"language_file_name": 7373,
+		"language_file_help": 107373,
+		"name": "Dry Dock",
+		"localised_name": "Dry Dock"
+	},
+	{
+		"cost": {
+			"wood": 525,
+			"food": 0,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28375,
+		"language_file_name": 7375,
+		"language_file_help": 107375,
+		"name": "Elite Cannon Galley",
+		"localised_name": "Elite Cannon Galleon"
+	},
+	{
+		"cost": {
+			"wood": 600,
+			"food": 500,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28378,
+		"language_file_name": 7378,
+		"language_file_help": 107378,
+		"name": "Siege Engineers",
+		"localised_name": "Siege Engineers"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 400,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28376,
+		"language_file_name": 7376,
+		"language_file_help": 107376,
+		"name": "Hoardings",
+		"localised_name": "Hoardings"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 350,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28374,
+		"language_file_name": 7374,
+		"language_file_help": 107374,
+		"name": "Heated Shot",
+		"localised_name": "Heated Shot"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28413,
+		"language_file_name": 7413,
+		"language_file_help": 107413,
+		"name": "Heavy Eagle Warrior",
+		"localised_name": "Eagle Warrior"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1075,
+			"gold": 475,
+			"stone": 0
+		},
+		"help_converter": 28401,
+		"language_file_name": 7401,
+		"language_file_help": 107401,
+		"name": "Elite Berserk",
+		"localised_name": "Elite Berserk"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28408,
+		"language_file_name": 7408,
+		"language_file_help": 107408,
+		"name": "Spy Technology",
+		"localised_name": "Spies/Treason"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 500,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28417,
+		"language_file_name": 7417,
+		"language_file_help": 107417,
+		"name": "Hussar",
+		"localised_name": "Hussar"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28414,
+		"language_file_name": 7414,
+		"language_file_help": 107414,
+		"name": "Halberdier",
+		"localised_name": "Halberdier"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28434,
+		"language_file_name": 7434,
+		"language_file_help": 107434,
+		"name": "Elite Jaguar Man",
+		"localised_name": "Elite Jaguar Warrior"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28433,
+		"language_file_name": 7433,
+		"language_file_help": 107433,
+		"name": "Elite Eagle Warrior",
+		"localised_name": "Elite Eagle Warrior"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 150,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28409,
+		"language_file_name": 7409,
+		"language_file_help": 107409,
+		"name": "Bloodlines",
+		"localised_name": "Bloodlines"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28415,
+		"language_file_name": 7415,
+		"language_file_help": 107415,
+		"name": "Parthian Tactics",
+		"localised_name": "Parthian Tactics"
+	},
+	{
+		"cost": {
+			"wood": 250,
+			"food": 300,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28411,
+		"language_file_name": 7411,
+		"language_file_help": 107411,
+		"name": "Thumb Ring",
+		"localised_name": "Thumb Ring"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28416,
+		"language_file_name": 7416,
+		"language_file_help": 107416,
+		"name": "Theocracy",
+		"localised_name": "Theocracy"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 1000,
+			"stone": 0
+		},
+		"help_converter": 28412,
+		"language_file_name": 7412,
+		"language_file_help": 107412,
+		"name": "Heresy",
+		"localised_name": "Heresy"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28325,
+		"language_file_name": 7325,
+		"language_file_help": 107325,
+		"name": "Spanish Supremacy",
+		"localised_name": "Supremacy"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28435,
+		"language_file_name": 7435,
+		"language_file_help": 107435,
+		"name": "Herbal Medicine",
+		"localised_name": "Herbal Medicine"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1100,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28438,
+		"language_file_name": 7438,
+		"language_file_help": 107438,
+		"name": "Korean catapults",
+		"localised_name": "Shinkichon"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28437,
+		"language_file_name": 7437,
+		"language_file_help": 107437,
+		"name": "Elite Turtle Ship",
+		"localised_name": "Elite Turtle Ship"
+	},
+	{
+		"cost": {
+			"wood": 1000,
+			"food": 0,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28436,
+		"language_file_name": 7436,
+		"language_file_help": 107436,
+		"name": "Elite War Wagon",
+		"localised_name": "Elite War Wagon"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28447,
+		"language_file_name": 7447,
+		"language_file_help": 107447,
+		"name": "Counterweights",
+		"localised_name": "Counterweights"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 0,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28448,
+		"language_file_name": 7448,
+		"language_file_help": 107448,
+		"name": "Detinets",
+		"localised_name": "Detinets"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 0,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28439,
+		"language_file_name": 7439,
+		"language_file_help": 107439,
+		"name": "Gothic Perfusion",
+		"localised_name": "Perfusion"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 350,
+			"stone": 0
+		},
+		"help_converter": 28326,
+		"language_file_name": 7326,
+		"language_file_help": 107326,
+		"name": "Aztec Sacrifice",
+		"localised_name": "Atlatl"
+	},
+	{
+		"cost": {
+			"wood": 800,
+			"food": 0,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28327,
+		"language_file_name": 7327,
+		"language_file_help": 107327,
+		"name": "Britons City Rights",
+		"localised_name": "Warwolf"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 0,
+			"gold": 0,
+			"stone": 200
+		},
+		"help_converter": 28368,
+		"language_file_name": 7368,
+		"language_file_help": 107368,
+		"name": "Chinese Great Wall",
+		"localised_name": "Great Wall"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28312,
+		"language_file_name": 7312,
+		"language_file_help": 107312,
+		"name": "Viking Chieftains",
+		"localised_name": "Chieftains"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28313,
+		"language_file_name": 7313,
+		"language_file_help": 107313,
+		"name": "Byzantines Greek Fire",
+		"localised_name": "Greek Fire"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28396,
+		"language_file_name": 7396,
+		"language_file_help": 107396,
+		"name": "Elite Genoese Bow",
+		"localised_name": "Elite Genoese Crossbowman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28395,
+		"language_file_name": 7395,
+		"language_file_help": 107395,
+		"name": "Elite Magyar Huszar",
+		"localised_name": "Elite Magyar Huszar"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28397,
+		"language_file_name": 7397,
+		"language_file_help": 107397,
+		"name": "Elite Elephant Archer",
+		"localised_name": "Elite Elephant Archer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28369,
+		"language_file_name": 7369,
+		"language_file_help": 107369,
+		"name": "Stronghold",
+		"localised_name": "Stronghold"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 0,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28370,
+		"language_file_name": 7370,
+		"language_file_help": 107370,
+		"name": "Huns UT",
+		"localised_name": "Marauders"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 300,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28371,
+		"language_file_name": 7371,
+		"language_file_help": 107371,
+		"name": "Japanese UT",
+		"localised_name": "Yasama"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28379,
+		"language_file_name": 7379,
+		"language_file_help": 107379,
+		"name": "Mayans UT",
+		"localised_name": "Hul'che Javelineers"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 300,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28380,
+		"language_file_name": 7380,
+		"language_file_help": 107380,
+		"name": "Koreans UT",
+		"localised_name": "Eupseong"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 0,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28280,
+		"language_file_name": 7280,
+		"language_file_help": 107280,
+		"name": "Mongols UT",
+		"localised_name": "Nomads"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28281,
+		"language_file_name": 7281,
+		"language_file_help": 107281,
+		"name": "Persians UT",
+		"localised_name": "Kamandaran"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 0,
+			"gold": 350,
+			"stone": 0
+		},
+		"help_converter": 28283,
+		"language_file_name": 7283,
+		"language_file_help": 107283,
+		"name": "Teutons UT",
+		"localised_name": "Ironclad"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28284,
+		"language_file_name": 7284,
+		"language_file_help": 107284,
+		"name": "Saracens UT",
+		"localised_name": "Madrasah"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 350,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28285,
+		"language_file_name": 7285,
+		"language_file_help": 107285,
+		"name": "Sipahi",
+		"localised_name": "Sipahi"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 100,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28286,
+		"language_file_name": 7286,
+		"language_file_help": 107286,
+		"name": "Spanish UT",
+		"localised_name": "Inquisition"
+	},
+	{
+		"cost": {
+			"wood": 600,
+			"food": 0,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28287,
+		"language_file_name": 7287,
+		"language_file_help": 107287,
+		"name": "Franks UT",
+		"localised_name": "Chivalry"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 0,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28272,
+		"language_file_name": 7272,
+		"language_file_help": 107272,
+		"name": "Pavise",
+		"localised_name": "Pavise"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28273,
+		"language_file_name": 7273,
+		"language_file_help": 107273,
+		"name": "Silk Route",
+		"localised_name": "Silk Road"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28264,
+		"language_file_name": 7264,
+		"language_file_help": 107264,
+		"name": "Elite Siege Tower",
+		"localised_name": "Elite Boyar"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 250,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28270,
+		"language_file_name": 7270,
+		"language_file_help": 107270,
+		"name": "Indians UT",
+		"localised_name": "Grand Trunk Road"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 500,
+			"gold": 650,
+			"stone": 0
+		},
+		"help_converter": 28271,
+		"language_file_name": 7271,
+		"language_file_help": 107271,
+		"name": "Indians UT2",
+		"localised_name": "Shatagni"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28265,
+		"language_file_name": 7265,
+		"language_file_help": 107265,
+		"name": "Elite Kamayuk",
+		"localised_name": "Elite Kamayuk"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28268,
+		"language_file_name": 7268,
+		"language_file_help": 107268,
+		"name": "Slavs UT",
+		"localised_name": "Orthodoxy"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28269,
+		"language_file_name": 7269,
+		"language_file_help": 107269,
+		"name": "Slavs UT",
+		"localised_name": "Druzhina"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28275,
+		"language_file_name": 7275,
+		"language_file_help": 107275,
+		"name": "Magyars UT",
+		"localised_name": "Corvinian Army"
+	},
+	{
+		"cost": {
+			"wood": 600,
+			"food": 0,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28274,
+		"language_file_name": 7274,
+		"language_file_help": 107274,
+		"name": "Indians UT",
+		"localised_name": "Recurve Bow"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28266,
+		"language_file_name": 7266,
+		"language_file_help": 107266,
+		"name": "Incas UT",
+		"localised_name": "Andean Sling"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28267,
+		"language_file_name": 7267,
+		"language_file_help": 107267,
+		"name": "Indians UT",
+		"localised_name": "Fabric Shields"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28236,
+		"language_file_name": 7236,
+		"language_file_help": 107236,
+		"name": "Heavy Camel",
+		"localised_name": "Imperial Camel Rider"
+	},
+	{
+		"cost": {
+			"wood": 10,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 7164,
+		"language_file_help": 107000,
+		"name": "Fire Tower (make avail)",
+		"localised_name": "Revetments"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1200,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28442,
+		"language_file_name": 7442,
+		"language_file_help": 107442,
+		"name": "Savar",
+		"localised_name": "Savar"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10271,
+		"language_file_help": 107000,
+		"name": "Britons",
+		"localised_name": "Britons"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10272,
+		"language_file_help": 107000,
+		"name": "Franks",
+		"localised_name": "Franks"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10273,
+		"language_file_help": 107000,
+		"name": "Goths",
+		"localised_name": "Goths"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10274,
+		"language_file_help": 107000,
+		"name": "Teutons",
+		"localised_name": "Teutons"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10275,
+		"language_file_help": 107000,
+		"name": "Japanese",
+		"localised_name": "Japanese"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10276,
+		"language_file_help": 107000,
+		"name": "Chinese",
+		"localised_name": "Chinese"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10277,
+		"language_file_help": 107000,
+		"name": "Byzantines",
+		"localised_name": "Byzantines"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10278,
+		"language_file_help": 107000,
+		"name": "Persians",
+		"localised_name": "Persians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10279,
+		"language_file_help": 107000,
+		"name": "Saracens",
+		"localised_name": "Saracens"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10280,
+		"language_file_help": 107000,
+		"name": "Turks",
+		"localised_name": "Turks"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10281,
+		"language_file_help": 107000,
+		"name": "Vikings",
+		"localised_name": "Vikings"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10282,
+		"language_file_help": 107000,
+		"name": "Mongols",
+		"localised_name": "Mongols"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10283,
+		"language_file_help": 107000,
+		"name": "Celts",
+		"localised_name": "Celts"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10284,
+		"language_file_help": 107000,
+		"name": "Spanish",
+		"localised_name": "Spanish"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10285,
+		"language_file_help": 107000,
+		"name": "Aztecs",
+		"localised_name": "Aztecs"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10286,
+		"language_file_help": 107000,
+		"name": "Maya",
+		"localised_name": "Maya"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10287,
+		"language_file_help": 107000,
+		"name": "Huns",
+		"localised_name": "Huns"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10288,
+		"language_file_help": 107000,
+		"name": "Koreans",
+		"localised_name": "Koreans"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10289,
+		"language_file_help": 107000,
+		"name": "Italians",
+		"localised_name": "Italians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10290,
+		"language_file_help": 107000,
+		"name": "Hindustanis",
+		"localised_name": "Hindustanis"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10291,
+		"language_file_help": 107000,
+		"name": "Inca",
+		"localised_name": "Inca"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10292,
+		"language_file_help": 107000,
+		"name": "Magyars",
+		"localised_name": "Magyars"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10293,
+		"language_file_help": 107000,
+		"name": "Slavs",
+		"localised_name": "Slavs"
+	},
+	{
+		"cost": {
+			"wood": 25,
+			"food": 40,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7024,
+		"language_file_help": 107316,
+		"name": "Enable sheep",
+		"localised_name": "Enable Sheep"
+	},
+	{
+		"cost": {
+			"wood": 25,
+			"food": 40,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7025,
+		"language_file_help": 107316,
+		"name": "Enable llamas",
+		"localised_name": "Enable Llamas"
+	},
+	{
+		"cost": {
+			"wood": 25,
+			"food": 40,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7026,
+		"language_file_help": 107316,
+		"name": "Enable cows",
+		"localised_name": "Enable Cows"
+	},
+	{
+		"cost": {
+			"wood": 25,
+			"food": 40,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7027,
+		"language_file_help": 107316,
+		"name": "Enable turkeys",
+		"localised_name": "Enable Turkeys"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1200,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28237,
+		"language_file_name": 7237,
+		"language_file_help": 107237,
+		"name": "Elite Organ Gun",
+		"localised_name": "Elite Organ Gun"
+	},
+	{
+		"cost": {
+			"wood": 1000,
+			"food": 0,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28238,
+		"language_file_name": 7238,
+		"language_file_help": 107238,
+		"name": "Elite Camel Archer",
+		"localised_name": "Elite Camel Archer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28241,
+		"language_file_name": 7241,
+		"language_file_help": 107241,
+		"name": "Elite Mali Unit",
+		"localised_name": "Elite Gbeto"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28245,
+		"language_file_name": 7245,
+		"language_file_help": 107245,
+		"name": "Elite Ethiopia Unit",
+		"localised_name": "Elite Shotel Warrior"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28250,
+		"language_file_name": 7250,
+		"language_file_help": 107250,
+		"name": "Portuguese UT",
+		"localised_name": "Carrack"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 700,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28251,
+		"language_file_name": 7251,
+		"language_file_help": 107251,
+		"name": "Portuguese UT",
+		"localised_name": "Arquebus"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28252,
+		"language_file_name": 7252,
+		"language_file_help": 107252,
+		"name": "Ethiopian UT",
+		"localised_name": "Royal Heirs"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28253,
+		"language_file_name": 7253,
+		"language_file_help": 107253,
+		"name": "Ethiopian UT",
+		"localised_name": "Torsion Engines"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 200,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28254,
+		"language_file_name": 7254,
+		"language_file_help": 107254,
+		"name": "Malian UT",
+		"localised_name": "Tigui"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28255,
+		"language_file_name": 7255,
+		"language_file_help": 107255,
+		"name": "Malian UT",
+		"localised_name": "Farimba"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28256,
+		"language_file_name": 7256,
+		"language_file_help": 107256,
+		"name": "Berber UT",
+		"localised_name": "Kasbah"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 700,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28257,
+		"language_file_name": 7257,
+		"language_file_help": 107257,
+		"name": "Berber UT",
+		"localised_name": "Maghrebi Camels"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10294,
+		"language_file_help": 107000,
+		"name": "Portuguese",
+		"localised_name": "Portuguese"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10295,
+		"language_file_help": 107000,
+		"name": "Ethiopians",
+		"localised_name": "Ethiopians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10296,
+		"language_file_help": 107000,
+		"name": "Malians",
+		"localised_name": "Malians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10297,
+		"language_file_help": 107000,
+		"name": "Berbers",
+		"localised_name": "Berbers"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 700,
+			"gold": 525,
+			"stone": 0
+		},
+		"help_converter": 28240,
+		"language_file_name": 7240,
+		"language_file_help": 107240,
+		"name": "Elite Caravel",
+		"localised_name": "Elite Caravel"
+	},
+	{
+		"cost": {
+			"wood": 450,
+			"food": 500,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28239,
+		"language_file_name": 7239,
+		"language_file_help": 107239,
+		"name": "Elite Genitour",
+		"localised_name": "Elite Genitour"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 75,
+			"gold": 25,
+			"stone": 0
+		},
+		"help_converter": 28258,
+		"language_file_name": 7258,
+		"language_file_help": 107258,
+		"name": "Arson",
+		"localised_name": "Arson"
+	},
+	{
+		"cost": {
+			"wood": 250,
+			"food": 250,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28278,
+		"language_file_name": 7278,
+		"language_file_help": 107278,
+		"name": "Arrowslits",
+		"localised_name": "Arrowslits"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28247,
+		"language_file_name": 7247,
+		"language_file_help": 107247,
+		"name": "Elite Ballista Elephant",
+		"localised_name": "Elite Ballista Elephant"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28248,
+		"language_file_name": 7248,
+		"language_file_help": 107248,
+		"name": "Elite Karambit Warrior",
+		"localised_name": "Elite Karambit Warrior"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28289,
+		"language_file_name": 7289,
+		"language_file_help": 107289,
+		"name": "Elite Arambai",
+		"localised_name": "Elite Arambai"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28290,
+		"language_file_name": 7290,
+		"language_file_help": 107290,
+		"name": "Elite Rattan Archer",
+		"localised_name": "Elite Rattan Archer"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 0,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28291,
+		"language_file_name": 7291,
+		"language_file_help": 107291,
+		"name": "Khmer UT",
+		"localised_name": "Tusk Swords"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 700,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28292,
+		"language_file_name": 7292,
+		"language_file_help": 107292,
+		"name": "Khmer UT",
+		"localised_name": "Double Crossbow"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28293,
+		"language_file_name": 7293,
+		"language_file_help": 107293,
+		"name": "Malay UT",
+		"localised_name": "Thalassocracy"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 850,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28294,
+		"language_file_name": 7294,
+		"language_file_help": 107294,
+		"name": "Malay UT",
+		"localised_name": "Forced Levy"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 400,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28295,
+		"language_file_name": 7295,
+		"language_file_help": 107295,
+		"name": "Burmese UT",
+		"localised_name": "Howdah"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28296,
+		"language_file_name": 7296,
+		"language_file_help": 107296,
+		"name": "Burmese UT",
+		"localised_name": "Manipur Cavalry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28297,
+		"language_file_name": 7297,
+		"language_file_help": 107297,
+		"name": "Vietnamese UT",
+		"localised_name": "Chatras"
+	},
+	{
+		"cost": {
+			"wood": 200,
+			"food": 550,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28298,
+		"language_file_name": 7298,
+		"language_file_help": 107298,
+		"name": "Vietnamese UT",
+		"localised_name": "Paper Money"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1100,
+			"gold": 700,
+			"stone": 0
+		},
+		"help_converter": 28299,
+		"language_file_name": 7299,
+		"language_file_help": 107299,
+		"name": "Elite Battle Elephant",
+		"localised_name": "Elite Battle Elephant"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 7328,
+		"language_file_help": 107000,
+		"name": "Town Center Spawn",
+		"localised_name": "Town Center Spawn"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10298,
+		"language_file_help": 107000,
+		"name": "Khmer",
+		"localised_name": "Khmer"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10299,
+		"language_file_help": 107000,
+		"name": "Malay",
+		"localised_name": "Malay"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10300,
+		"language_file_help": 107000,
+		"name": "Burmese",
+		"localised_name": "Burmese"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10301,
+		"language_file_help": 107000,
+		"name": "Vietnamese",
+		"localised_name": "Vietnamese"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28300,
+		"language_file_name": 7300,
+		"language_file_help": 107300,
+		"name": "Imperial Skirmisher",
+		"localised_name": "Imperial Skirmisher"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28301,
+		"language_file_name": 7301,
+		"language_file_help": 107301,
+		"name": "Set Max pop (no houses)",
+		"localised_name": "Set maximum population (no Houses)"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 7302,
+		"language_file_help": 107000,
+		"name": "C-Bonus, Vietnamese Vision",
+		"localised_name": "Vietnamese Vision"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10302,
+		"language_file_help": 107000,
+		"name": "Bulgarians",
+		"localised_name": "Bulgarians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10303,
+		"language_file_help": 107000,
+		"name": "Tatars",
+		"localised_name": "Tatars"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10304,
+		"language_file_help": 107000,
+		"name": "Cumans",
+		"localised_name": "Cumans"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10305,
+		"language_file_help": 107000,
+		"name": "Lithuanians",
+		"localised_name": "Lithuanians"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28303,
+		"language_file_name": 7303,
+		"language_file_help": 107303,
+		"name": "Elite Konnik",
+		"localised_name": "Elite Konnik"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 700,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28304,
+		"language_file_name": 7304,
+		"language_file_help": 107304,
+		"name": "Elite Keshik",
+		"localised_name": "Elite Keshik"
+	},
+	{
+		"cost": {
+			"wood": 1000,
+			"food": 1100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28305,
+		"language_file_name": 7305,
+		"language_file_help": 107305,
+		"name": "Elite Kipchak",
+		"localised_name": "Elite Kipchak"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 750,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28306,
+		"language_file_name": 7306,
+		"language_file_help": 107306,
+		"name": "Elite Leitis",
+		"localised_name": "Elite Leitis"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28307,
+		"language_file_name": 7307,
+		"language_file_help": 107307,
+		"name": "Khmer UT",
+		"localised_name": "Stirrups"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28308,
+		"language_file_name": 7308,
+		"language_file_help": 107308,
+		"name": "Khmer UT",
+		"localised_name": "Bagains"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28309,
+		"language_file_name": 7309,
+		"language_file_help": 107309,
+		"name": "Malay UT",
+		"localised_name": "Silk Armor"
+	},
+	{
+		"cost": {
+			"wood": 500,
+			"food": 0,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28310,
+		"language_file_name": 7310,
+		"language_file_help": 107310,
+		"name": "Malay UT",
+		"localised_name": "Timurid Siegecraft"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 200,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28311,
+		"language_file_name": 7311,
+		"language_file_help": 107311,
+		"name": "Burmese UT",
+		"localised_name": "Steppe Husbandry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28398,
+		"language_file_name": 7398,
+		"language_file_help": 107398,
+		"name": "Burmese UT",
+		"localised_name": "Cuman Mercenaries"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 250,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28399,
+		"language_file_name": 7399,
+		"language_file_help": 107399,
+		"name": "Vietnamese UT",
+		"localised_name": "Hill Forts"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 500,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28400,
+		"language_file_name": 7400,
+		"language_file_help": 107400,
+		"name": "Vietnamese UT",
+		"localised_name": "Tower Shields"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 550,
+			"stone": 0
+		},
+		"help_converter": 28402,
+		"language_file_name": 7402,
+		"language_file_help": 107402,
+		"name": "Elite Steppe Lancer",
+		"localised_name": "Elite Steppe Lancer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 75,
+			"gold": 75,
+			"stone": 0
+		},
+		"help_converter": 28403,
+		"language_file_name": 7403,
+		"language_file_help": 107403,
+		"name": "Supplies",
+		"localised_name": "Supplies"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7329,
+		"language_file_help": 107316,
+		"name": "Resources last +15%",
+		"localised_name": "Resources last 15% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7330,
+		"language_file_help": 107316,
+		"name": "Resources last +30%",
+		"localised_name": "Resources last 30% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7331,
+		"language_file_help": 107316,
+		"name": "Resources last +40%",
+		"localised_name": "Resources last 40% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7332,
+		"language_file_help": 107316,
+		"name": "Resources last +50%",
+		"localised_name": "Resources last 50% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7333,
+		"language_file_help": 107316,
+		"name": "Resources last +75%",
+		"localised_name": "Resources last 75% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7334,
+		"language_file_help": 107316,
+		"name": "Resources last +100%",
+		"localised_name": "Resources last 100% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7335,
+		"language_file_help": 107316,
+		"name": "Resources last +125%",
+		"localised_name": "Resources last 125% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7336,
+		"language_file_help": 107316,
+		"name": "Resources last +150%",
+		"localised_name": "Resources last 150% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7337,
+		"language_file_help": 107316,
+		"name": "Resources last +175%",
+		"localised_name": "Resources last 175% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7338,
+		"language_file_help": 107316,
+		"name": "Resources last +200%",
+		"localised_name": "Resources last 200% longer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28316,
+		"language_file_name": 7339,
+		"language_file_help": 107316,
+		"name": "Resources last +300%",
+		"localised_name": "Resources last 300% longer"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10306,
+		"language_file_help": 107000,
+		"name": "Burgundians",
+		"localised_name": "Burgundians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10307,
+		"language_file_help": 107000,
+		"name": "Sicilians",
+		"localised_name": "Sicilians"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28340,
+		"language_file_name": 7340,
+		"language_file_help": 107340,
+		"name": "Elite Coustillier",
+		"localised_name": "Elite Coustillier"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 675,
+			"stone": 0
+		},
+		"help_converter": 28341,
+		"language_file_name": 7341,
+		"language_file_help": 107341,
+		"name": "Elite Serjeant",
+		"localised_name": "Elite Serjeant"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28342,
+		"language_file_name": 7342,
+		"language_file_help": 107342,
+		"name": "Burgundian Vineyards",
+		"localised_name": "Burgundian Vineyards"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 200,
+			"gold": 150,
+			"stone": 0
+		},
+		"help_converter": 28343,
+		"language_file_name": 7343,
+		"language_file_help": 107343,
+		"name": "Flemish Revolution",
+		"localised_name": "Flemish Revolution"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28344,
+		"language_file_name": 7344,
+		"language_file_help": 107344,
+		"name": "First Crusade",
+		"localised_name": "First Crusade"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 700,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28345,
+		"language_file_name": 7345,
+		"language_file_help": 107345,
+		"name": "Hauberk",
+		"localised_name": "Hauberk"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10308,
+		"language_file_help": 107000,
+		"name": "Poles",
+		"localised_name": "Poles"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10309,
+		"language_file_help": 107000,
+		"name": "Bohemians",
+		"localised_name": "Bohemians"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28346,
+		"language_file_name": 7346,
+		"language_file_help": 107346,
+		"name": "Elite Obuch",
+		"localised_name": "Elite Obuch"
+	},
+	{
+		"cost": {
+			"wood": 800,
+			"food": 0,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28347,
+		"language_file_name": 7347,
+		"language_file_help": 107347,
+		"name": "Elite Hussite Wagon",
+		"localised_name": "Elite Hussite Wagon"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 500,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28348,
+		"language_file_name": 7348,
+		"language_file_help": 107348,
+		"name": "Szlachta Privileges",
+		"localised_name": "Szlachta Privileges"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 750,
+			"gold": 550,
+			"stone": 0
+		},
+		"help_converter": 28349,
+		"language_file_name": 7349,
+		"language_file_help": 107349,
+		"name": "Lechitic Legacy",
+		"localised_name": "Lechitic Legacy"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28350,
+		"language_file_name": 7350,
+		"language_file_help": 107350,
+		"name": "Wagenburg Tactics",
+		"localised_name": "Wagenburg Tactics"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 500,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28351,
+		"language_file_name": 7351,
+		"language_file_help": 107351,
+		"name": "Hussite Reforms",
+		"localised_name": "Hussite Reforms"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28352,
+		"language_file_name": 7352,
+		"language_file_help": 107352,
+		"name": "Winged Hussar",
+		"localised_name": "Winged Hussar"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1100,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28353,
+		"language_file_name": 7353,
+		"language_file_help": 107353,
+		"name": "Houfnice",
+		"localised_name": "Houfnice"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 5581,
+		"language_file_help": 107000,
+		"name": "C-Bonus, Enable Folwark",
+		"localised_name": "Folwark"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10310,
+		"language_file_help": 107000,
+		"name": "Dravidians",
+		"localised_name": "Dravidians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10311,
+		"language_file_help": 107000,
+		"name": "Bengalis",
+		"localised_name": "Bengalis"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10312,
+		"language_file_help": 107000,
+		"name": "Gurjaras",
+		"localised_name": "Gurjaras"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28354,
+		"language_file_name": 7354,
+		"language_file_help": 107354,
+		"name": "Elite Urumi Swordsman",
+		"localised_name": "Elite Urumi Swordsman"
+	},
+	{
+		"cost": {
+			"wood": 800,
+			"food": 800,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28355,
+		"language_file_name": 7355,
+		"language_file_help": 107355,
+		"name": "Elite Ratha",
+		"localised_name": "Elite Ratha"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 650,
+			"stone": 0
+		},
+		"help_converter": 28356,
+		"language_file_name": 7356,
+		"language_file_help": 107356,
+		"name": "Elite Chakram Thrower",
+		"localised_name": "Elite Chakram Thrower"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28357,
+		"language_file_name": 7357,
+		"language_file_help": 107357,
+		"name": "Medical Corps",
+		"localised_name": "Medical Corps"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 550,
+			"stone": 0
+		},
+		"help_converter": 28358,
+		"language_file_name": 7358,
+		"language_file_help": 107358,
+		"name": "Wootz Steel",
+		"localised_name": "Wootz Steel"
+	},
+	{
+		"cost": {
+			"wood": 375,
+			"food": 0,
+			"gold": 275,
+			"stone": 0
+		},
+		"help_converter": 28359,
+		"language_file_name": 7359,
+		"language_file_help": 107359,
+		"name": "Paiks",
+		"localised_name": "Paiks"
+	},
+	{
+		"cost": {
+			"wood": 800,
+			"food": 0,
+			"gold": 650,
+			"stone": 0
+		},
+		"help_converter": 28360,
+		"language_file_name": 7360,
+		"language_file_help": 107360,
+		"name": "Mahayana",
+		"localised_name": "Mahayana"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 500,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28361,
+		"language_file_name": 7361,
+		"language_file_help": 107361,
+		"name": "Kshatriyas",
+		"localised_name": "Kshatriyas"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 700,
+			"stone": 0
+		},
+		"help_converter": 28362,
+		"language_file_name": 7362,
+		"language_file_help": 107362,
+		"name": "Frontier Guards",
+		"localised_name": "Frontier Guards"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 850,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28363,
+		"language_file_name": 7363,
+		"language_file_help": 107363,
+		"name": "Elite Armored Elephant",
+		"localised_name": "Siege Elephant"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 950,
+			"gold": 575,
+			"stone": 0
+		},
+		"help_converter": 28364,
+		"language_file_name": 7364,
+		"language_file_help": 107364,
+		"name": "Elite Ghulam",
+		"localised_name": "Elite Ghulam"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 850,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28365,
+		"language_file_name": 7365,
+		"language_file_help": 107365,
+		"name": "Elite Shrivamsha Rider",
+		"localised_name": "Elite Shrivamsha Rider"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 50,
+			"gold": 100,
+			"stone": 0
+		},
+		"help_converter": 28450,
+		"language_file_name": 7450,
+		"language_file_help": 107450,
+		"name": "Gambesons",
+		"localised_name": "Gambesons"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10313,
+		"language_file_help": 107000,
+		"name": "Romans",
+		"localised_name": "Romans"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1100,
+			"gold": 900,
+			"stone": 0
+		},
+		"help_converter": 28443,
+		"language_file_name": 7443,
+		"language_file_help": 107443,
+		"name": "Elite Centurion",
+		"localised_name": "Elite Centurion"
+	},
+	{
+		"cost": {
+			"wood": 400,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28444,
+		"language_file_name": 7444,
+		"language_file_help": 107444,
+		"name": "Ballistas",
+		"localised_name": "Ballistas"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 700,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28445,
+		"language_file_name": 7445,
+		"language_file_help": 107445,
+		"name": "Comitatenses",
+		"localised_name": "Comitatenses"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28446,
+		"language_file_name": 7446,
+		"language_file_help": 107446,
+		"name": "Legionary",
+		"localised_name": "Legionary"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28084,
+		"language_file_name": 7084,
+		"language_file_help": 107084,
+		"name": "Pirotecnia",
+		"localised_name": "Pirotechnia"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10314,
+		"language_file_help": 107000,
+		"name": "Armenians",
+		"localised_name": "Armenians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10315,
+		"language_file_help": 107000,
+		"name": "Georgians",
+		"localised_name": "Georgians"
+	},
+	{
+		"cost": {
+			"wood": 600,
+			"food": 0,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28404,
+		"language_file_name": 7404,
+		"language_file_help": 107404,
+		"name": "Elite Composite Bowman",
+		"localised_name": "Elite Composite Bowman"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 700,
+			"stone": 0
+		},
+		"help_converter": 28405,
+		"language_file_name": 7405,
+		"language_file_help": 107405,
+		"name": "Elite Monaspa",
+		"localised_name": "Elite Monaspa"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 550,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28406,
+		"language_file_name": 7406,
+		"language_file_help": 107406,
+		"name": "Fereters",
+		"localised_name": "Fereters"
+	},
+	{
+		"cost": {
+			"wood": 350,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28407,
+		"language_file_name": 7407,
+		"language_file_help": 107407,
+		"name": "Cilician Fleet",
+		"localised_name": "Cilician Fleet"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 300,
+			"gold": 200,
+			"stone": 0
+		},
+		"help_converter": 28440,
+		"language_file_name": 7440,
+		"language_file_help": 107440,
+		"name": "Svan Towers",
+		"localised_name": "Svan Towers"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 550,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28441,
+		"language_file_name": 7441,
+		"language_file_help": 107441,
+		"name": "Aznauri Cavalry",
+		"localised_name": "Aznauri Cavalry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 5038,
+		"language_file_help": 107000,
+		"name": "C-Bonus, Fortified Church",
+		"localised_name": "Fortified Church"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 850,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28449,
+		"language_file_name": 7449,
+		"language_file_help": 107449,
+		"name": "Elite Qizilbash Warrior",
+		"localised_name": "Elite Qizilbash Warrior"
+	},
+	{
+		"cost": {
+			"wood": 800,
+			"food": 0,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28470,
+		"language_file_name": 7470,
+		"language_file_help": 107470,
+		"name": "Heavy Rocket Cart",
+		"localised_name": "Heavy Rocket Cart"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 400,
+			"stone": 0
+		},
+		"help_converter": 28463,
+		"language_file_name": 7463,
+		"language_file_help": 107463,
+		"name": "Elite Fire Lancer",
+		"localised_name": "Elite Fire Lancer"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10322,
+		"language_file_help": 107000,
+		"name": "Jurchens",
+		"localised_name": "Jurchens"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10323,
+		"language_file_help": 107000,
+		"name": "Khitans",
+		"localised_name": "Khitans"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 950,
+			"gold": 550,
+			"stone": 0
+		},
+		"help_converter": 28464,
+		"language_file_name": 7464,
+		"language_file_help": 107464,
+		"name": "Elite Iron Pagoda",
+		"localised_name": "Elite Iron Pagoda"
+	},
+	{
+		"cost": {
+			"wood": 250,
+			"food": 350,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28466,
+		"language_file_name": 7466,
+		"language_file_help": 107466,
+		"name": "Fortifed Bastions",
+		"localised_name": "Fortified Bastions"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 600,
+			"stone": 0
+		},
+		"help_converter": 28467,
+		"language_file_name": 7467,
+		"language_file_help": 107467,
+		"name": "Thunderclap Bombs",
+		"localised_name": "Thunderclap Bombs"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 650,
+			"stone": 0
+		},
+		"help_converter": 28465,
+		"language_file_name": 7465,
+		"language_file_help": 107465,
+		"name": "Elite Liao Dao",
+		"localised_name": "Elite Liao Dao"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 450,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28468,
+		"language_file_name": 7468,
+		"language_file_help": 107468,
+		"name": "Lamellar Armor",
+		"localised_name": "Lamellar Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28469,
+		"language_file_name": 7469,
+		"language_file_help": 107469,
+		"name": "Ordo Cavalry",
+		"localised_name": "Ordo Cavalry"
+	},
+	{
+		"cost": {
+			"wood": 350,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28483,
+		"language_file_name": 7483,
+		"language_file_help": 107483,
+		"name": "Dragon Ship",
+		"localised_name": "Dragon Ship"
+	},
+	{
+		"cost": {
+			"wood": 325,
+			"food": 175,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28486,
+		"language_file_name": 7486,
+		"language_file_help": 107486,
+		"name": "Grazing Grasslands",
+		"localised_name": "Transhumance"
+	},
+	{
+		"cost": {
+			"wood": 150,
+			"food": 100,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28485,
+		"language_file_name": 7485,
+		"language_file_help": 107485,
+		"name": "Enclosures",
+		"localised_name": "Pastoralism"
+	},
+	{
+		"cost": {
+			"wood": 100,
+			"food": 50,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28484,
+		"language_file_name": 7484,
+		"language_file_help": 107484,
+		"name": "Livestock Husbandry",
+		"localised_name": "Domestication"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10316,
+		"language_file_help": 107000,
+		"name": "Achaemenids",
+		"localised_name": "Achaemenids"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10318,
+		"language_file_help": 107000,
+		"name": "Spartans",
+		"localised_name": "Spartans"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10317,
+		"language_file_help": 107000,
+		"name": "Athenians",
+		"localised_name": "Athenians"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10319,
+		"language_file_help": 107000,
+		"name": "Shu",
+		"localised_name": "Shu"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10321,
+		"language_file_help": 107000,
+		"name": "Wei",
+		"localised_name": "Wei"
+	},
+	{
+		"cost": {
+			"wood": 1,
+			"food": 0,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28000,
+		"language_file_name": 10320,
+		"language_file_help": 107000,
+		"name": "Wu",
+		"localised_name": "Wu"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 350,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28471,
+		"language_file_name": 7471,
+		"language_file_help": 107471,
+		"name": "Heavy Hei-Kuang Cavalry",
+		"localised_name": "Heavy Hei Guang Cavalry"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 1000,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28472,
+		"language_file_name": 7472,
+		"language_file_help": 107472,
+		"name": "Elite Tiger Cavalry",
+		"localised_name": "Elite Tiger Cavalry"
+	},
+	{
+		"cost": {
+			"wood": 300,
+			"food": 250,
+			"gold": 0,
+			"stone": 0
+		},
+		"help_converter": 28473,
+		"language_file_name": 7473,
+		"language_file_help": 107473,
+		"name": "Tuntian",
+		"localised_name": "Tuntian"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 600,
+			"gold": 450,
+			"stone": 0
+		},
+		"help_converter": 28474,
+		"language_file_name": 7474,
+		"language_file_help": 107474,
+		"name": "Ming-Kuang Armor",
+		"localised_name": "Ming Guang Armor"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 900,
+			"gold": 500,
+			"stone": 0
+		},
+		"help_converter": 28475,
+		"language_file_name": 7475,
+		"language_file_help": 107475,
+		"name": "Elite White Feather Guard",
+		"localised_name": "Elite White Feather Guard"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 650,
+			"gold": 750,
+			"stone": 0
+		},
+		"help_converter": 28476,
+		"language_file_name": 7476,
+		"language_file_help": 107476,
+		"name": "Bolt Magazine",
+		"localised_name": "Bolt Magazine"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 350,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28477,
+		"language_file_name": 7477,
+		"language_file_help": 107477,
+		"name": "Coiled Serpent Array",
+		"localised_name": "Coiled Serpent Array"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 800,
+			"gold": 800,
+			"stone": 0
+		},
+		"help_converter": 28478,
+		"language_file_name": 7478,
+		"language_file_help": 107478,
+		"name": "Elite Fire Archer",
+		"localised_name": "Elite Fire Archer"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 400,
+			"gold": 250,
+			"stone": 0
+		},
+		"help_converter": 28480,
+		"language_file_name": 7480,
+		"language_file_help": 107480,
+		"name": "Red Cliffs Tactics",
+		"localised_name": "Red Cliffs Tactics"
+	},
+	{
+		"cost": {
+			"wood": 600,
+			"food": 0,
+			"gold": 300,
+			"stone": 0
+		},
+		"help_converter": 28481,
+		"language_file_name": 7481,
+		"language_file_help": 107481,
+		"name": "Ming-Kuang Armor",
+		"localised_name": "Sitting Tiger"
+	},
+	{
+		"cost": {
+			"wood": 0,
+			"food": 750,
+			"gold": 350,
+			"stone": 0
+		},
+		"help_converter": 28260,
+		"language_file_name": 7260,
+		"language_file_help": 107260,
+		"name": "Champion",
+		"localised_name": "Champion"
+	}
+]

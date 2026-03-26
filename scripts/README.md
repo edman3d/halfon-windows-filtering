@@ -8,11 +8,13 @@ Create a Python3 virtual environment with genieutils-py installed:
 
 ```shell
 python3 -m venv venv
-source venv/bin/activate
+venv\Scripts\activate
 pip install genieutils-py
 ```
 
 ## Usage
+My AoE2 path
+`C:\Program Files (x86)\Steam\steamapps\common\AoE2DE`
 
 Activate the virtual environment if not already active:
 
@@ -23,7 +25,7 @@ source venv/bin/activate
 Then run the script, passing the path to your local installation of Age of Empires II as a parameter:
 
 ```shell
-./update-de-data.py ~/aoe/Aoe2DE\ proton/
+python scripts\update-de-data.py "C:\Program Files (x86)\Steam\steamapps\common\AoE2DE"
 ```
 
 Your data files will be updated with the current data.

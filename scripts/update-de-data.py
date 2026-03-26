@@ -15,6 +15,85 @@ RES_STONE = 2
 RES_GOLD = 3
 ARM_PIERCE = 3
 
+TYPE_MAPPING = {
+    10: "Eye Candy",
+    15: "Tree (AoK)",
+    20: "Animated",
+    25: "Doppelganger",
+    30: "Moving",
+    40: "Actor",
+    50: "Superclass",
+    60: "Projectile",
+    70: "Combatant",
+    80: "Building",
+    90: "Tree (AoE)"
+}
+
+CLASS_MAPPING = [
+    "Archer",
+    "Artifact",
+    "Trade Boat",
+    "Building",
+    "Civilian",
+    "Ocean Fish",
+    "Infantry",
+    "Berry Bush",
+    "Stone Mine",
+    "Prey Animal",
+    "Predator Animal",
+    "Miscellaneous",
+    "Cavalry",
+    "Siege Weapon",
+    "Terrain",
+    "Tree",
+    "Tree Stump",
+    "Healer",
+    "Monk",
+    "Trade Cart",
+    "Transport Boat",
+    "Fishing Boat",
+    "Warship",
+    "Conquistador",
+    "War Elephant",
+    "Hero",
+    "Elephant Archer",
+    "Wall",
+    "Phalanx",
+    "Domestic Animal",
+    "Flag",
+    "Deep Sea Fish",
+    "Gold Mine",
+    "Shore Fish",
+    "Cliff",
+    "Petard",
+    "Cavalry Archer",
+    "Doppelganger",
+    "Bird",
+    "Gate",
+    "Salvage Pile",
+    "Resource Pile",
+    "Relic",
+    "Monk with Relic",
+    "Hand Cannoneer",
+    "Two Handed Swordsman",
+    "Pikeman",
+    "Scout",
+    "Ore Mine",
+    "Farm",
+    "Spearman",
+    "Packed Unit",
+    "Tower",
+    "Boarding Boat",
+    "Unpacked Siege Unit",
+    "Ballista",
+    "Raider",
+    "Cavalry Raider",
+    "Livestock",
+    "King",
+    "Misc Building",
+    "Controlled Animal"
+]
+
 
 def cpp_round(value: float) -> int | float:
     rounded_int = round(value)
@@ -25,7 +104,7 @@ def cpp_round(value: float) -> int | float:
 
 def read_strings(path: Path) -> dict[int, str]:
     values = {}
-    for line in path.read_text().splitlines():
+    for line in path.read_text(encoding='utf-8').splitlines():
         if line and line[0].isnumeric():
             items = line.strip().split(maxsplit=1)
             values[int(items[0])] = items[1][1:-1]
@@ -36,7 +115,7 @@ def read_rms_consts(path: Path) -> dict[int, str]:
     values = {}
     pattern = re.compile(r'#const\s+([A-Z_]+)\s+(\d+)')
     active = False
-    for line in path.read_text().splitlines():
+    for line in path.read_text(encoding='utf-8').splitlines():
         if 'OBJECT TYPES' in line or 'DLC_AUTUMNTREE ' in line or 'DLC_BOULDER_A ' in line:
             active = True
         if 'Effect Constants' in line or 'DLC_BAOBABFOREST ' in line or 'DLC_ROCK ' in line:
@@ -47,6 +126,57 @@ def read_rms_consts(path: Path) -> dict[int, str]:
                 if m.group(2) not in values:
                     values[m.group(2)] = m.group(1)
     return values
+
+
+def should_include_unit(unit_data: dict) -> bool:
+    """Filter out units based on specified conditions"""
+    # Exclude units with line_of_sight = -1
+    if unit_data.get('line_of_sight') == -1:
+        return False
+    
+    # Exclude units with class = "Miscellaneous"
+    if unit_data.get('class') == 'Miscellaneous':
+        return False
+    
+    # Exclude units with class = "Relic"
+    if unit_data.get('class') == 'Relic':
+        return False
+    
+    # Exclude units with class = "Tree"
+    if unit_data.get('class') == 'Tree':
+        return False
+    
+    # Exclude units with class = "Terrain"
+    if unit_data.get('class') == 'Terrain':
+        return False
+    
+    # Exclude units with class = "Civilian"
+    if unit_data.get('class') == 'Civilian':
+        return False
+    
+    # Exclude units with type = "Eye Candy"
+    if unit_data.get('type') == 'Eye Candy':
+        return False
+    
+    # Exclude units with type = "Animated"
+    if unit_data.get('type') == 'Animated':
+        return False
+    
+    return True
+
+
+def should_include_tech(tech_data: dict) -> bool:
+    """Filter out technologies based on specified conditions"""
+    # Exclude technologies with empty localised_name
+    if tech_data.get('localised_name') == '':
+        return False
+    
+    # Exclude technologies with default placeholder names
+    name = tech_data.get('name', '')
+    if name.startswith('Anarchy +'):
+        return False
+    
+    return True
 
 
 def get_pierce_armor(unit: Unit) -> int:
@@ -84,8 +214,8 @@ def unit_data(unit: Unit) -> dict:
         "hit_points": unit.hit_points,
         "line_of_sight": cpp_round(unit.line_of_sight),
         "garrison_capacity": unit.garrison_capacity,
-        "type": unit.type,
-        "class": unit.class_,
+        "type": TYPE_MAPPING.get(unit.type, str(unit.type)),
+        "class": CLASS_MAPPING[unit.class_] if unit.class_ < len(CLASS_MAPPING) else str(unit.class_),
         "localised_name": '',
         "rms_const": None,
     }
@@ -108,24 +238,51 @@ def tech_data(tech: Tech) -> dict:
 
 
 def process(dat_file: Path, strings_file: Path, rms_file: Path | None, target: Path) -> None:
-    data = {'units_buildings': {}, 'techs': {}}
+    units_data = []
+    buildings_data = []
+    techs_data = []
+    
     strings = read_strings(strings_file)
     rms = read_rms_consts(rms_file) if rms_file else {}
     dat = DatFile.parse(dat_file)
+    
     for unit in dat.civs[0].units:
         if unit:
-            data['units_buildings'][str(unit.base_id)] = unit_data(unit)
+            unit_info = unit_data(unit)
+            if should_include_unit(unit_info):
+                # Separate units and buildings based on type
+                if unit_info.get('type') == 'Building':
+                    buildings_data.append(unit_info)
+                else:
+                    units_data.append(unit_info)
+    
     for tid, tech in enumerate(dat.techs):
-        data['techs'][str(tid)] = tech_data(tech)
+        tech_info = tech_data(tech)
+        techs_data.append(tech_info)
 
-    for objtype in ('units_buildings', 'techs'):
-        for key in data[objtype]:
-            strings_key = data[objtype][key]['language_file_name']
-            data[objtype][key]['localised_name'] = strings.get(strings_key, '')
-            if objtype == 'units_buildings':
-                data[objtype][key]['rms_const'] = rms.get(key, None)
-
-    target.write_text(json.dumps(data, indent='\t', ensure_ascii=False, sort_keys=False))
+    # Apply localization to all data
+    all_data = {'units': units_data, 'buildings': buildings_data, 'techs': techs_data}
+    for objtype in ('units', 'buildings', 'techs'):
+        for obj in all_data[objtype]:
+            strings_key = obj['language_file_name']
+            obj['localised_name'] = strings.get(strings_key, '')
+            if objtype in ('units', 'buildings'):
+                obj['rms_const'] = rms.get(str(obj['base_id']), None)
+    
+    # Remove objects with empty localised_name after localization
+    filtered_units = [obj for obj in all_data['units'] if obj.get('localised_name') != '']
+    filtered_buildings = [obj for obj in all_data['buildings'] if obj.get('localised_name') != '']
+    filtered_techs = [obj for obj in all_data['techs'] if obj.get('localised_name') != '' and 'Placeholder' not in obj.get('name', '')]
+    
+    # Write to separate files
+    base_dir = target.parent
+    units_file = base_dir / 'units.json'
+    buildings_file = base_dir / 'buildings.json'
+    techs_file = base_dir / 'techs.json'
+    
+    units_file.write_text(json.dumps(filtered_units, indent='\t', ensure_ascii=False, sort_keys=False))
+    buildings_file.write_text(json.dumps(filtered_buildings, indent='\t', ensure_ascii=False, sort_keys=False))
+    techs_file.write_text(json.dumps(filtered_techs, indent='\t', ensure_ascii=False, sort_keys=False))
 
 
 def main():
@@ -146,7 +303,12 @@ def main():
     ror_target = Path(__file__).parent.resolve().parent / 'data' / 'units_buildings_techs.ror.json'
 
     process(de_dat, de_strings, de_rms, de_target)
-    process(ror_dat, ror_strings, None, ror_target)
+    
+    # Only process Pompeii DLC if files exist
+    if ror_dat.exists() and ror_strings.exists():
+        process(ror_dat, ror_strings, None, ror_target)
+    else:
+        print(f"Pompeii DLC files not found, skipping: {ror_dat} or {ror_strings}")
 
 
 if __name__ == '__main__':
