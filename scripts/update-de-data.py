@@ -307,8 +307,6 @@ def main():
     # Only process Pompeii DLC if files exist
     if ror_dat.exists() and ror_strings.exists():
         process(ror_dat, ror_strings, None, ror_target)
-    else:
-        print(f"Pompeii DLC files not found, skipping: {ror_dat} or {ror_strings}")
 
 
 if __name__ == '__main__':
