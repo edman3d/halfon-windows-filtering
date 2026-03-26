@@ -284,8 +284,7 @@ def process(dat_file: Path, strings_file: Path, rms_file: Path | None, target: P
     # Extract civilization data
     for index, civ in enumerate(dat.civs):
         civ_info = civ_data(civ, index)
-        if should_include_civ(civ_info):
-            civs_data.append(civ_info)
+        civs_data.append(civ_info)
 
     # Apply localization to all data
     all_data = {'units': units_data, 'buildings': buildings_data, 'techs': techs_data, 'civs': civs_data}
@@ -302,7 +301,7 @@ def process(dat_file: Path, strings_file: Path, rms_file: Path | None, target: P
     filtered_units = [obj for obj in all_data['units'] if obj.get('localised_name') != '']
     filtered_buildings = [obj for obj in all_data['buildings'] if obj.get('localised_name') != '']
     filtered_techs = [obj for obj in all_data['techs'] if obj.get('localised_name') != '' and 'Placeholder' not in obj.get('name', '')]
-    filtered_civs = [obj for obj in all_data['civs'] if obj.get('localised_name') != '']
+    filtered_civs = civs_data
     
     # Write to separate files
     base_dir = target.parent

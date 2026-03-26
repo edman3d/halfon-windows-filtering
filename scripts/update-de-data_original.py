@@ -141,12 +141,7 @@ def main():
     de_rms = args.aoe2_dir / 'resources' / '_common' / 'drs' / 'gamedata_x2' / 'random_map.def'
     de_target = Path(__file__).parent.resolve().parent / 'data' / 'units_buildings_techs.de.json'
 
-    ror_dat = args.aoe2_dir / 'modes' / 'Pompeii' / 'resources' / '_common' / 'dat' / 'empires2_x2_p1.dat'
-    ror_strings = args.aoe2_dir / 'modes' / 'Pompeii' / 'resources' / 'en' / 'strings' / 'key-value' / 'key-value-pompeii-strings-utf8.txt'
-    ror_target = Path(__file__).parent.resolve().parent / 'data' / 'units_buildings_techs.ror.json'
-
     process(de_dat, de_strings, de_rms, de_target)
-    process(ror_dat, ror_strings, None, ror_target)
 
 
 if __name__ == '__main__':
