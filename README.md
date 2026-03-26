@@ -1,3 +1,6 @@
+# What is this?
+Editing halfon's repo to generate data for my development needs. Halfon's README is below. The halfon repo is here: https://github.com/SiegeEngineers/halfon
+
 # halfon
 Online AoE II Unit/Building/Tech reference for AoE II DE, AoE II HD, and AoE II WK.
 
