@@ -221,6 +221,26 @@ def unit_data(unit: Unit) -> dict:
     }
 
 
+def civ_data(civ, index: int) -> dict:
+    return {
+        "id": index,
+        "name": civ.name,
+        "player_type": civ.player_type,
+        "team_bonus_id": civ.team_bonus_id,
+        "tech_tree_id": civ.tech_tree_id,
+        "localised_name": civ.name,  # Use name as localised_name since no language DLL info
+    }
+
+
+def should_include_civ(civ_data: dict) -> bool:
+    """Filter out civilizations based on specified conditions"""
+    # Exclude civilizations with empty name
+    if civ_data.get('name') == '':
+        return False
+    
+    return True
+
+
 def tech_data(tech: Tech) -> dict:
     return {
         "cost": {
@@ -241,6 +261,7 @@ def process(dat_file: Path, strings_file: Path, rms_file: Path | None, target: P
     units_data = []
     buildings_data = []
     techs_data = []
+    civs_data = []
     
     strings = read_strings(strings_file)
     rms = read_rms_consts(rms_file) if rms_file else {}
@@ -259,9 +280,15 @@ def process(dat_file: Path, strings_file: Path, rms_file: Path | None, target: P
     for tid, tech in enumerate(dat.techs):
         tech_info = tech_data(tech)
         techs_data.append(tech_info)
+    
+    # Extract civilization data
+    for index, civ in enumerate(dat.civs):
+        civ_info = civ_data(civ, index)
+        if should_include_civ(civ_info):
+            civs_data.append(civ_info)
 
     # Apply localization to all data
-    all_data = {'units': units_data, 'buildings': buildings_data, 'techs': techs_data}
+    all_data = {'units': units_data, 'buildings': buildings_data, 'techs': techs_data, 'civs': civs_data}
     for objtype in ('units', 'buildings', 'techs'):
         for obj in all_data[objtype]:
             strings_key = obj['language_file_name']
@@ -269,20 +296,25 @@ def process(dat_file: Path, strings_file: Path, rms_file: Path | None, target: P
             if objtype in ('units', 'buildings'):
                 obj['rms_const'] = rms.get(str(obj['base_id']), None)
     
+    # Civs already have their names, no localization needed
+    
     # Remove objects with empty localised_name after localization
     filtered_units = [obj for obj in all_data['units'] if obj.get('localised_name') != '']
     filtered_buildings = [obj for obj in all_data['buildings'] if obj.get('localised_name') != '']
     filtered_techs = [obj for obj in all_data['techs'] if obj.get('localised_name') != '' and 'Placeholder' not in obj.get('name', '')]
+    filtered_civs = [obj for obj in all_data['civs'] if obj.get('localised_name') != '']
     
     # Write to separate files
     base_dir = target.parent
     units_file = base_dir / 'units.json'
     buildings_file = base_dir / 'buildings.json'
     techs_file = base_dir / 'techs.json'
+    civs_file = base_dir / 'civs.json'
     
     units_file.write_text(json.dumps(filtered_units, indent='\t', ensure_ascii=False, sort_keys=False))
     buildings_file.write_text(json.dumps(filtered_buildings, indent='\t', ensure_ascii=False, sort_keys=False))
     techs_file.write_text(json.dumps(filtered_techs, indent='\t', ensure_ascii=False, sort_keys=False))
+    civs_file.write_text(json.dumps(filtered_civs, indent='\t', ensure_ascii=False, sort_keys=False))
 
 
 def main():

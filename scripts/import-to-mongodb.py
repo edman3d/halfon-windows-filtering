@@ -14,6 +14,7 @@ def import_to_mongodb():
     units_file = data_dir / 'units.json'
     buildings_file = data_dir / 'buildings.json'
     techs_file = data_dir / 'techs.json'
+    civs_file = data_dir / 'civs.json'
     
     try:
         # Connect to MongoDB
@@ -95,6 +96,30 @@ def import_to_mongodb():
                 print("No techs data to import")
         else:
             print(f"Techs file not found: {techs_file}")
+        
+        # Import civilizations
+        if civs_file.exists():
+            print("Importing civilizations...")
+            try:
+                with open(civs_file, 'r', encoding='utf-8') as f:
+                    civs_data = json.load(f)
+            except UnicodeDecodeError:
+                print("UTF-8 decode failed, trying with latin-1 encoding...")
+                with open(civs_file, 'r', encoding='latin-1') as f:
+                    civs_data = json.load(f)
+            
+            # Empty the collection first
+            db.civs.delete_many({})
+            print(f"Cleared {db.civs.deleted_count} documents from civs collection")
+            
+            # Insert new data
+            if civs_data:
+                result = db.civs.insert_many(civs_data)
+                print(f"Inserted {len(result.inserted_ids)} civs")
+            else:
+                print("No civs data to import")
+        else:
+            print(f"Civs file not found: {civs_file}")
         
         print("Import completed successfully!")
         

@@ -1,0 +1,458 @@
+[
+	{
+		"id": 0,
+		"name": "Gaia",
+		"player_type": 1,
+		"team_bonus_id": -1,
+		"tech_tree_id": 348,
+		"localised_name": "Gaia"
+	},
+	{
+		"id": 1,
+		"name": "British",
+		"player_type": 1,
+		"team_bonus_id": 399,
+		"tech_tree_id": 254,
+		"localised_name": "British"
+	},
+	{
+		"id": 2,
+		"name": "French",
+		"player_type": 1,
+		"team_bonus_id": 403,
+		"tech_tree_id": 258,
+		"localised_name": "French"
+	},
+	{
+		"id": 3,
+		"name": "Goths",
+		"player_type": 1,
+		"team_bonus_id": 405,
+		"tech_tree_id": 259,
+		"localised_name": "Goths"
+	},
+	{
+		"id": 4,
+		"name": "Teutons",
+		"player_type": 1,
+		"team_bonus_id": 404,
+		"tech_tree_id": 262,
+		"localised_name": "Teutons"
+	},
+	{
+		"id": 5,
+		"name": "Japanese",
+		"player_type": 1,
+		"team_bonus_id": 406,
+		"tech_tree_id": 255,
+		"localised_name": "Japanese"
+	},
+	{
+		"id": 6,
+		"name": "Chinese",
+		"player_type": 1,
+		"team_bonus_id": 402,
+		"tech_tree_id": 257,
+		"localised_name": "Chinese"
+	},
+	{
+		"id": 7,
+		"name": "Byzantine",
+		"player_type": 1,
+		"team_bonus_id": 400,
+		"tech_tree_id": 256,
+		"localised_name": "Byzantine"
+	},
+	{
+		"id": 8,
+		"name": "Persians",
+		"player_type": 1,
+		"team_bonus_id": 408,
+		"tech_tree_id": 260,
+		"localised_name": "Persians"
+	},
+	{
+		"id": 9,
+		"name": "Saracens",
+		"player_type": 1,
+		"team_bonus_id": 409,
+		"tech_tree_id": 261,
+		"localised_name": "Saracens"
+	},
+	{
+		"id": 10,
+		"name": "Turks",
+		"player_type": 1,
+		"team_bonus_id": 410,
+		"tech_tree_id": 263,
+		"localised_name": "Turks"
+	},
+	{
+		"id": 11,
+		"name": "Vikings",
+		"player_type": 1,
+		"team_bonus_id": 411,
+		"tech_tree_id": 276,
+		"localised_name": "Vikings"
+	},
+	{
+		"id": 12,
+		"name": "Mongols",
+		"player_type": 1,
+		"team_bonus_id": 407,
+		"tech_tree_id": 277,
+		"localised_name": "Mongols"
+	},
+	{
+		"id": 13,
+		"name": "Celts",
+		"player_type": 1,
+		"team_bonus_id": 401,
+		"tech_tree_id": 275,
+		"localised_name": "Celts"
+	},
+	{
+		"id": 14,
+		"name": "Spanish",
+		"player_type": 1,
+		"team_bonus_id": 490,
+		"tech_tree_id": 446,
+		"localised_name": "Spanish"
+	},
+	{
+		"id": 15,
+		"name": "Aztecs",
+		"player_type": 1,
+		"team_bonus_id": 488,
+		"tech_tree_id": 447,
+		"localised_name": "Aztecs"
+	},
+	{
+		"id": 16,
+		"name": "Mayan",
+		"player_type": 1,
+		"team_bonus_id": 489,
+		"tech_tree_id": 449,
+		"localised_name": "Mayan"
+	},
+	{
+		"id": 17,
+		"name": "Huns",
+		"player_type": 1,
+		"team_bonus_id": 484,
+		"tech_tree_id": 448,
+		"localised_name": "Huns"
+	},
+	{
+		"id": 18,
+		"name": "Koreans",
+		"player_type": 1,
+		"team_bonus_id": 505,
+		"tech_tree_id": 504,
+		"localised_name": "Koreans"
+	},
+	{
+		"id": 19,
+		"name": "Italians",
+		"player_type": 1,
+		"team_bonus_id": 11,
+		"tech_tree_id": 10,
+		"localised_name": "Italians"
+	},
+	{
+		"id": 20,
+		"name": "Hindustanis",
+		"player_type": 1,
+		"team_bonus_id": 2,
+		"tech_tree_id": 1,
+		"localised_name": "Hindustanis"
+	},
+	{
+		"id": 21,
+		"name": "Incas",
+		"player_type": 1,
+		"team_bonus_id": 4,
+		"tech_tree_id": 3,
+		"localised_name": "Incas"
+	},
+	{
+		"id": 22,
+		"name": "Magyars",
+		"player_type": 1,
+		"team_bonus_id": 6,
+		"tech_tree_id": 5,
+		"localised_name": "Magyars"
+	},
+	{
+		"id": 23,
+		"name": "Slavs",
+		"player_type": 1,
+		"team_bonus_id": 9,
+		"tech_tree_id": 7,
+		"localised_name": "Slavs"
+	},
+	{
+		"id": 24,
+		"name": "Portuguese",
+		"player_type": 1,
+		"team_bonus_id": 32,
+		"tech_tree_id": 31,
+		"localised_name": "Portuguese"
+	},
+	{
+		"id": 25,
+		"name": "Ethiopians",
+		"player_type": 1,
+		"team_bonus_id": 49,
+		"tech_tree_id": 48,
+		"localised_name": "Ethiopians"
+	},
+	{
+		"id": 26,
+		"name": "Malians",
+		"player_type": 1,
+		"team_bonus_id": 43,
+		"tech_tree_id": 42,
+		"localised_name": "Malians"
+	},
+	{
+		"id": 27,
+		"name": "Berbers",
+		"player_type": 1,
+		"team_bonus_id": 38,
+		"tech_tree_id": 37,
+		"localised_name": "Berbers"
+	},
+	{
+		"id": 28,
+		"name": "Khmer",
+		"player_type": 1,
+		"team_bonus_id": 647,
+		"tech_tree_id": 646,
+		"localised_name": "Khmer"
+	},
+	{
+		"id": 29,
+		"name": "Malay",
+		"player_type": 1,
+		"team_bonus_id": 649,
+		"tech_tree_id": 648,
+		"localised_name": "Malay"
+	},
+	{
+		"id": 30,
+		"name": "Burmese",
+		"player_type": 1,
+		"team_bonus_id": 651,
+		"tech_tree_id": 650,
+		"localised_name": "Burmese"
+	},
+	{
+		"id": 31,
+		"name": "Vietnamese",
+		"player_type": 1,
+		"team_bonus_id": 653,
+		"tech_tree_id": 652,
+		"localised_name": "Vietnamese"
+	},
+	{
+		"id": 32,
+		"name": "Bulgarians",
+		"player_type": 1,
+		"team_bonus_id": 707,
+		"tech_tree_id": 706,
+		"localised_name": "Bulgarians"
+	},
+	{
+		"id": 33,
+		"name": "Tatars",
+		"player_type": 1,
+		"team_bonus_id": 709,
+		"tech_tree_id": 708,
+		"localised_name": "Tatars"
+	},
+	{
+		"id": 34,
+		"name": "Cumans",
+		"player_type": 1,
+		"team_bonus_id": 711,
+		"tech_tree_id": 710,
+		"localised_name": "Cumans"
+	},
+	{
+		"id": 35,
+		"name": "Lithuanians",
+		"player_type": 1,
+		"team_bonus_id": 713,
+		"tech_tree_id": 712,
+		"localised_name": "Lithuanians"
+	},
+	{
+		"id": 36,
+		"name": "Burgundians",
+		"player_type": 1,
+		"team_bonus_id": 783,
+		"tech_tree_id": 782,
+		"localised_name": "Burgundians"
+	},
+	{
+		"id": 37,
+		"name": "Sicilians",
+		"player_type": 1,
+		"team_bonus_id": 785,
+		"tech_tree_id": 784,
+		"localised_name": "Sicilians"
+	},
+	{
+		"id": 38,
+		"name": "Poles",
+		"player_type": 1,
+		"team_bonus_id": 802,
+		"tech_tree_id": 801,
+		"localised_name": "Poles"
+	},
+	{
+		"id": 39,
+		"name": "Bohemians",
+		"player_type": 1,
+		"team_bonus_id": 804,
+		"tech_tree_id": 803,
+		"localised_name": "Bohemians"
+	},
+	{
+		"id": 40,
+		"name": "Dravidians",
+		"player_type": 1,
+		"team_bonus_id": 839,
+		"tech_tree_id": 838,
+		"localised_name": "Dravidians"
+	},
+	{
+		"id": 41,
+		"name": "Bengalis",
+		"player_type": 1,
+		"team_bonus_id": 841,
+		"tech_tree_id": 840,
+		"localised_name": "Bengalis"
+	},
+	{
+		"id": 42,
+		"name": "Gurjaras",
+		"player_type": 1,
+		"team_bonus_id": 843,
+		"tech_tree_id": 842,
+		"localised_name": "Gurjaras"
+	},
+	{
+		"id": 43,
+		"name": "Romans",
+		"player_type": 1,
+		"team_bonus_id": 891,
+		"tech_tree_id": 890,
+		"localised_name": "Romans"
+	},
+	{
+		"id": 44,
+		"name": "Armenians",
+		"player_type": 1,
+		"team_bonus_id": 926,
+		"tech_tree_id": 925,
+		"localised_name": "Armenians"
+	},
+	{
+		"id": 45,
+		"name": "Georgians",
+		"player_type": 1,
+		"team_bonus_id": 928,
+		"tech_tree_id": 927,
+		"localised_name": "Georgians"
+	},
+	{
+		"id": 46,
+		"name": "Achaemenids",
+		"player_type": 1,
+		"team_bonus_id": 1102,
+		"tech_tree_id": 1101,
+		"localised_name": "Achaemenids"
+	},
+	{
+		"id": 47,
+		"name": "Athenians",
+		"player_type": 1,
+		"team_bonus_id": 1118,
+		"tech_tree_id": 1117,
+		"localised_name": "Athenians"
+	},
+	{
+		"id": 48,
+		"name": "Spartans",
+		"player_type": 1,
+		"team_bonus_id": 1130,
+		"tech_tree_id": 1129,
+		"localised_name": "Spartans"
+	},
+	{
+		"id": 49,
+		"name": "Shu",
+		"player_type": 1,
+		"team_bonus_id": 1029,
+		"tech_tree_id": 1028,
+		"localised_name": "Shu"
+	},
+	{
+		"id": 50,
+		"name": "Wu",
+		"player_type": 1,
+		"team_bonus_id": 1031,
+		"tech_tree_id": 1030,
+		"localised_name": "Wu"
+	},
+	{
+		"id": 51,
+		"name": "Wei",
+		"player_type": 1,
+		"team_bonus_id": 1027,
+		"tech_tree_id": 1026,
+		"localised_name": "Wei"
+	},
+	{
+		"id": 52,
+		"name": "Jurchens",
+		"player_type": 1,
+		"team_bonus_id": 987,
+		"tech_tree_id": 986,
+		"localised_name": "Jurchens"
+	},
+	{
+		"id": 53,
+		"name": "Khitans",
+		"player_type": 1,
+		"team_bonus_id": 989,
+		"tech_tree_id": 988,
+		"localised_name": "Khitans"
+	},
+	{
+		"id": 54,
+		"name": "Macedonians",
+		"player_type": 1,
+		"team_bonus_id": 1219,
+		"tech_tree_id": 1218,
+		"localised_name": "Macedonians"
+	},
+	{
+		"id": 55,
+		"name": "Thracians",
+		"player_type": 1,
+		"team_bonus_id": 1247,
+		"tech_tree_id": 1246,
+		"localised_name": "Thracians"
+	},
+	{
+		"id": 56,
+		"name": "Puru",
+		"player_type": 1,
+		"team_bonus_id": 1257,
+		"tech_tree_id": 1256,
+		"localised_name": "Puru"
+	}
+]
