@@ -10,6 +10,7 @@ Create a Python3 virtual environment with genieutils-py installed:
 python3 -m venv venv
 venv\Scripts\activate
 pip install genieutils-py
+pip install pymongo
 ```
 
 ## Usage
@@ -19,7 +20,7 @@ My AoE2 path
 Activate the virtual environment if not already active:
 
 ```shell
-source venv/bin/activate
+venv\Scripts\activate
 ```
 
 Then run the script, passing the path to your local installation of Age of Empires II as a parameter:
@@ -29,3 +30,11 @@ python scripts\update-de-data.py "C:\Program Files (x86)\Steam\steamapps\common\
 ```
 
 Your data files will be updated with the current data.
+
+## Import to MongoDB
+
+```shell
+python scripts\import-to-mongodb.py
+```
+
+This will clear the current collections andimport the data files into a MongoDB database named `halfon-windows-filtering`.
